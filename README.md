@@ -1,5 +1,6 @@
 # iam-abac
 
+* How frequently can we call STS assume role (the role session will likely only be used for a single operation before being discarded) 
 
 ## Policy
 ```json
@@ -20,3 +21,6 @@
     ]
 }
 ```
+
+## Sequence Diagram
+![Sequence Diagram](ABAC.png)
